@@ -115,13 +115,13 @@ if st.button("Recommend"):
             display: block;
             margin-left: auto;
             margin-right: auto;
-            height: 100px
         }
         .car-name {
             height: 50px
         }
         .car-price {
             white-space: nowrap;
+            margin-bottom: -10px;
         }
         </style>
     """, unsafe_allow_html=True)
