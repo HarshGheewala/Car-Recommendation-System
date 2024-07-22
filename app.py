@@ -112,11 +112,9 @@ if st.button("Recommend"):
             height: 250px;
         }
         .car-image {
-            height: 100px;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 167px;
         }
         .car-name {
             height: 50px
