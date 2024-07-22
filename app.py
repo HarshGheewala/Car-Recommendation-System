@@ -115,6 +115,7 @@ if st.button("Recommend"):
             display: block;
             margin-left: auto;
             margin-right: auto;
+            height: 100px
         }
         .car-name {
             height: 50px
