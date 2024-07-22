@@ -118,11 +118,10 @@ if st.button("Recommend"):
             margin-right: auto;
         }
         .car-name {
-            margin-top: 5px; /* Add some margin to separate the name from the image */
+            height: 50px
         }
         .car-price {
             white-space: nowrap;
-            margin-top: 5px; /* Add some margin to separate the price from the name */
         }
         </style>
     """, unsafe_allow_html=True)
