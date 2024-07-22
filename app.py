@@ -95,7 +95,7 @@ selected_choice = st.selectbox("Please select your Priority",
 if st.button("Recommend"):
     if (selected_choice == "Design"):
         names,images,prices = recommendCarsBasedOnDesign(selected_car)
-    elif (selected_choice == "Improved Design and Features"):
+    elif (selected_choice == "Design and Features"):
         names,images,prices = recommendCarsBasedOnDesignAndFeature(selected_car)
     elif (selected_choice == "Features"):
         names,images,prices = recommendCarsBasedOnFeatures(selected_car)
