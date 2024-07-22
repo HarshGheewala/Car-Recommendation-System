@@ -4,19 +4,18 @@ import pickle
 
 
 #for design and feature based
-car_dict1 = pickle.load(open("D:\project\CRS2\Features.pkl","rb"))
-Improved = pickle.load(open("D:\project\CRS2\ImprovedDesign.pkl","rb"))
+car_dict1 = pickle.load(open("Features.pkl","rb"))
+Improved = pickle.load(open("ImprovedDesign.pkl","rb"))
 
 #for Pure Design
-
-design = pickle.load(open("D:\project\CRS2\design_similarity.pkl","rb"))
+design = pickle.load(open("design_similarity.pkl","rb"))
 
 #for Pure Features
-feature = pickle.load(open("D:\project\CRS2\Feature_similarity.pkl","rb"))
+feature = pickle.load(open("Feature_similarity.pkl","rb"))
 
 #for performance based
-car_dict2 = pickle.load(open("D:\project\CRS2\Performance.pkl","rb"))
-distance_matrix = pickle.load(open("D:\project\CRS2\distancematrix.pkl","rb"))
+car_dict2 = pickle.load(open("Performance.pkl","rb"))
+distance_matrix = pickle.load(open("distancematrix.pkl","rb"))
 
 CarsBasedOnDesign = pd.DataFrame(car_dict1)
 CarsBasedOnPerformance = pd.DataFrame(car_dict2)
