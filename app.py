@@ -122,7 +122,6 @@ if st.button("Recommend"):
         }
         .car-price {
             white-space: nowrap;
-            margin-bottom: -20px;
         }
         </style>
     """, unsafe_allow_html=True)
