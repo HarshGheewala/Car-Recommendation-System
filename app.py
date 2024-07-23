@@ -120,18 +120,23 @@ if st.button("Recommend"):
         .car-name {
             height: 50px
         }
-        .car-price {
-            white-space: nowrap;
-            margin-bottom:-150px
-        }
+        # .car-price {
+        #     white-space: nowrap;
+        #     margin-bottom:-150px
+        # }
         </style>
     """, unsafe_allow_html=True)
 
     for col, name, image, price in zip(cols, names, images, prices):
         col.markdown(f'''
             <div class="car-container">
-                <img src="{image}" class="car-image"/>
+                <div class="car-image"> 
+                <img src="{image}" />
+                </div> 
+                
+                <div class="car-price">  
                 <p class="car-name">{name}</p>
-                <p class="car-price">\u20B9 {price}</p>
+                <p >\u20B9 {price}</p>
+                </div> 
             </div>
             ''', unsafe_allow_html=True)
