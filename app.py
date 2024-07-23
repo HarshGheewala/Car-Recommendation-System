@@ -129,14 +129,10 @@ if st.button("Recommend"):
 
     for col, name, image, price in zip(cols, names, images, prices):
         col.markdown(f'''
-            <div class="car-container">
-                <div class="car-image"> 
-                <img src="{image}" />
-                </div> 
-                
-                <div class="car-price">  
+            <div class="car-container"> 
+                <img class=car-image src="{image}" /> 
                 <p class="car-name">{name}</p>
-                <p >\u20B9 {price}</p>
+                <p class="car-price">\u20B9 {price}</p>
                 </div> 
             </div>
             ''', unsafe_allow_html=True)
