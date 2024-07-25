@@ -89,7 +89,7 @@ st.title("Car Recommendation System")
 selected_car = st.selectbox("Please Select the car",
                        CarsBasedOnDesign["Car Model"].values)
 
-selected_choice = st.selectbox("Please select your Priority",
+selected_choice = st.selectbox("Please select your Preference",
                        ["Design and Features","Design","Features","Performance"])
 
 if st.button("Recommend"):
